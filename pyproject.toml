@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "document-search"
+version = "0.1.0"
+description = ""
+authors = ["naoyamada"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<=3.12"
+openai = "^0.28.1"
+numpy = "^1.26.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "src"
+]
