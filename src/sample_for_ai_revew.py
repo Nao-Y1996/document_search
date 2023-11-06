@@ -1,5 +1,5 @@
 import numpy as np
-
+import pandas as pd
 
 def calc_mean(numbers):
     s = sum(numbers)
